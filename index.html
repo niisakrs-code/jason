@@ -1,0 +1,148 @@
+<html>
+<head>
+<title>Jason's SuperHero Journey</title>
+
+<style>
+	body {
+		background-color: #bfd6d1;
+		font-family: Arial, sans-serif;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-height: 2500vh;
+		margin: 0;
+	}
+
+	.container {
+		background-color: white;
+		padding: 30px;
+		border-radius: 15px;
+		box-shadow: 0 0 15px rgb(10,10,10,0.2);
+		max-width:800px;
+		text-align: center;
+	}
+
+
+
+	h1 {
+		color: gold;
+	}
+
+	p {
+		color: red;
+	}
+
+	table, th, td {
+		border: 2px solid black;
+		text-align: center;
+		border-collapse: collapse;
+		padding: 8px;
+		margin: 0 auto;
+	}
+
+</style>
+</head>
+
+
+<body>
+<div class="container">
+<h1 id="demo" ><u>Jason</u></h1>
+<p> Is <i>stronger</i> than Ironman and is <b>faster</b> than the flash.</p>
+<br><br>
+<p>Jason is faster than the flash.</p>
+<br>
+<button type="button" onclick="makeTextLarge()" >Make Title Bigger</button>
+<br>
+<button type="button" onclick="makeTextSmall()" >Make Title Smaller</button>
+<br>
+<button type="button" onclick="changeBackground()"> Change Title Background </button>
+<img src="pig.PNG" width="500">
+
+<br>
+<a href="https://www.manutd.com/" >link to my favorite show</a>
+
+<br>
+<br>
+<img src="photo.jpg" width="500">
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15882.718103237676!2d-0.046657!3d5.614254799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1760801178185!5m2!1sen!2sgh" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eOvzkmu3pkQ?si=czxMfQo4n3bpK7o9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+<h3>My Super Powers</h3>
+<ul>
+	<li>Time Control</li>
+	<li>Flying</li>
+	<li>super strength</li>
+</ul>
+
+
+
+<table>
+	<thead>
+		<tr>
+			<th>Monday</th>
+			<th>Wednesday</th>
+			<th>Friday</th>	
+		</tr>	
+	</thead>
+	<tbody>
+		<tr>
+			<td>Flying</td>
+			<td>Super Speed</td>
+			<td>Ivincible</td>
+		</tr>
+		<tr>
+			<td>Super Strenght</td>
+			<td>Flexibilty</td>
+			<td>X ray Vision</td>
+		</tr>	
+	</tbody>
+</table>
+
+<br><br>
+<h3> Jason's Super Villan Academy</h3>
+<form>
+	<label>First Name</label><br>
+	<input type="text" name="" ><br>
+	<label>Last Name</label><br>
+	<input type="text" name=""><br>
+	<label>Contact</label><br>
+	<input type="number" name=""><br>
+	<label>Power</label><br>
+	<input type="text" name=""><br>
+	<label>Date of Birth</label><br>
+	<input type="date" name=""><br>
+
+	<input type="submit" name="submit">
+</form>
+
+<button type="button" onclick="showDate()" > Show Date </button>
+<p id="ant"> Hello World</p>
+</div>
+</body>
+<script>
+	function showDate() {
+		document.getElementById('ant').innerHTML = Date();
+	}
+
+	function makeTextLarge() {
+		document.getElementById('demo').style.fontSize = '70px';
+	}
+function makeTextSmall() {
+		document.getElementById('demo').style.fontSize = '10px';
+	}
+
+
+	function changeBackground(){
+		document.getElementById('demo').style.backgroundColor = 'blue';
+		document.getElementById('demo').style.color = 'white';
+	}
+</script>
+</html>
+
+
+
+
